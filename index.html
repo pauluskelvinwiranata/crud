@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Program CRUD Sederhana</h1><br>
+      <form id="form">
+        <input type="hidden" id="userId" />
+        <label for="name">Nama :</label>
+        <input type="text" id="name" required />
+        <label for="email">Email :</label>
+        <input type="email" id="email" required />
+        <button type="submit" class="btn-submit">Simpan</button>
+      </form>
+      <table id="table"></table>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
